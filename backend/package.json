@@ -26,7 +26,9 @@
     "strapi-utils": "3.0.0-beta.20.3"
   },
   "author": {
-    "name": "Ramon Barbosa"
+    "email": "ramon@creativehand.com.br",
+    "name": "Ramon Barbosa",
+    "url": "https://www.linkedin.com/in/ramon-guimaraes/"
   },
   "strapi": {
     "uuid": "ddf35826-5c76-46e0-8fb4-308c34f356bb"
