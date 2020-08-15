@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customer_records",
+  "info": {
+    "name": "Customer Record"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "dataReply": {
+      "type": "date"
+    },
+    "record": {
+      "type": "text"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

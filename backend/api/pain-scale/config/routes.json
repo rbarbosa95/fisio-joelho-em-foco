@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pain-scales",
+      "handler": "pain-scale.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pain-scales/count",
+      "handler": "pain-scale.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pain-scales/:id",
+      "handler": "pain-scale.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pain-scales",
+      "handler": "pain-scale.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pain-scales/:id",
+      "handler": "pain-scale.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pain-scales/:id",
+      "handler": "pain-scale.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

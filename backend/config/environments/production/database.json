@@ -1,0 +1,15 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "uri": "YOUR_URI",
+        "database": "YOUR_DATABASE"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}

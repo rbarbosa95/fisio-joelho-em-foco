@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answereds",
+  "info": {
+    "name": "Answered"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "infosBasic": {
+      "type": "boolean",
+      "default": false
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "evaluationForm": {
+      "type": "boolean",
+      "default": false
+    },
+    "questions": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

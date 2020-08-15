@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_heart_likes",
+  "info": {
+    "name": "Likes",
+    "icon": "thumbs-up"
+  },
+  "options": {},
+  "attributes": {
+    "heart": {
+      "type": "integer",
+      "default": 1
+    }
+  }
+}

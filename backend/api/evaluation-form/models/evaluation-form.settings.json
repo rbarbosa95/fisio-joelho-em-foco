@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "evaluation_forms",
+  "info": {
+    "name": "evaluation form"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "question1": {
+      "type": "text"
+    },
+    "question2": {
+      "type": "text"
+    },
+    "question3": {
+      "type": "text"
+    },
+    "question4": {
+      "type": "boolean",
+      "default": false
+    },
+    "subQuestion4": {
+      "type": "string"
+    },
+    "question5": {
+      "type": "boolean",
+      "default": false
+    },
+    "subQuestion5": {
+      "type": "string"
+    },
+    "question6": {
+      "type": "boolean",
+      "default": false
+    },
+    "subQuestion6": {
+      "type": "string"
+    },
+    "question7": {
+      "type": "boolean",
+      "default": false
+    },
+    "subQuestion7": {
+      "type": "string"
+    },
+    "question8": {
+      "type": "text"
+    },
+    "question9": {
+      "type": "text"
+    },
+    "question10": {
+      "type": "text"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

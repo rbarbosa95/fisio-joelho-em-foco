@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/answereds",
+      "handler": "answered.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/answereds/count",
+      "handler": "answered.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/answereds/:id",
+      "handler": "answered.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/answereds",
+      "handler": "answered.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/answereds/:id",
+      "handler": "answered.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/answereds/:id",
+      "handler": "answered.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

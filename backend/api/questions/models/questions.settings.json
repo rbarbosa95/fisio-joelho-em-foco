@@ -1,0 +1,129 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "name": "Questions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "question1": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3"
+      ],
+      "default": "reply1"
+    },
+    "question2": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3"
+      ],
+      "default": "reply1"
+    },
+    "question3": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4"
+      ],
+      "default": "reply1"
+    },
+    "question4": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4",
+        "reply5"
+      ],
+      "default": "reply1"
+    },
+    "question5": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4"
+      ],
+      "default": "reply1"
+    },
+    "question6": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4"
+      ],
+      "default": "reply1"
+    },
+    "question7": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4",
+        "reply5"
+      ],
+      "default": "reply1"
+    },
+    "question8": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4",
+        "reply5"
+      ],
+      "default": "reply1"
+    },
+    "question9": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4"
+      ],
+      "default": "reply1"
+    },
+    "question10": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4"
+      ],
+      "default": "reply1"
+    },
+    "question11": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4",
+        "reply5"
+      ],
+      "default": "reply1"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

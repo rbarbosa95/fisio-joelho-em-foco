@@ -1,0 +1,39 @@
+{
+  "name": "fisio-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Fisio Back-End application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "knex": "<0.20.0",
+    "sqlite3": "^4.2.0",
+    "strapi": "3.0.0-beta.20.3",
+    "strapi-admin": "3.0.0-beta.20.3",
+    "strapi-connector-bookshelf": "3.0.0-beta.20.3",
+    "strapi-connector-mongoose": "^3.0.0-beta.20.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "strapi-plugin-documentation": "3.0.0-beta.20.3",
+    "strapi-plugin-email": "3.0.0-beta.20.3",
+    "strapi-plugin-upload": "3.0.0-beta.20.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
+    "strapi-utils": "3.0.0-beta.20.3"
+  },
+  "author": {
+    "name": "Ramon Barbosa"
+  },
+  "strapi": {
+    "uuid": "ddf35826-5c76-46e0-8fb4-308c34f356bb"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

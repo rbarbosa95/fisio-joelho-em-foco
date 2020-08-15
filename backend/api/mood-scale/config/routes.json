@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mood-scales",
+      "handler": "mood-scale.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mood-scales/count",
+      "handler": "mood-scale.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mood-scales/:id",
+      "handler": "mood-scale.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mood-scales",
+      "handler": "mood-scale.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mood-scales/:id",
+      "handler": "mood-scale.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mood-scales/:id",
+      "handler": "mood-scale.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

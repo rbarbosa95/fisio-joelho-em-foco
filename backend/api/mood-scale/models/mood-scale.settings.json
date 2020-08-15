@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mood_scales",
+  "info": {
+    "name": "Mood Scale"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "mood": {
+      "type": "enumeration",
+      "enum": [
+        "reply1",
+        "reply2",
+        "reply3",
+        "reply4",
+        "reply5",
+        "reply6",
+        "reply7",
+        "reply8",
+        "reply9"
+      ],
+      "default": "reply1"
+    },
+    "dateReply": {
+      "type": "date"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "other": {
+      "type": "string"
+    }
+  }
+}

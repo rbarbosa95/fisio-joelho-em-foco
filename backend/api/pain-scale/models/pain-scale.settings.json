@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pain_scales",
+  "info": {
+    "name": "Pain Scale"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "pain": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "max": 10
+    },
+    "dateReply": {
+      "type": "date"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    }
+  }
+}

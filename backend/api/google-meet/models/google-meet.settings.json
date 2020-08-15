@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "google_meets",
+  "info": {
+    "name": "Google Meet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "google_meet"
+    }
+  }
+}
