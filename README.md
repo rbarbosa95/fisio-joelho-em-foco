@@ -20,7 +20,7 @@
 
 ## 💻 Sobre o projeto
 
-Joelho em Foco -  Oferece serviços de atendimento online e tele atendimento personalizado, para garantir a continuidade dos cuidados com a saúde, orientar sobre a prática de exercícios físicos e abordar sobre a importância da educação em dor. 
+Joelho em Foco -  Oferece serviços de atendimento online e teleatendimento personalizado, para garantir a continuidade dos cuidados com a saúde, orientar sobre a prática de exercícios físicos e abordar sobre a importância da educação em dor. 
 
 
 Projeto desenvolvido como uma forma dos alunos do curso de fisioterapia conseguisse atender seus pacientes mesmo durante o **COVID-19**, de forma totalmente online e personalizada.
